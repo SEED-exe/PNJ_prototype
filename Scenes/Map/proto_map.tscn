@@ -1,0 +1,206 @@
+[gd_scene load_steps=4 format=3 uid="uid://c6hksllxhpvaq"]
+
+[ext_resource type="PackedScene" uid="uid://cl7v3dbtxdvnx" path="res://Scenes/Map/room_spawn.tscn" id="2_sqb33"]
+[ext_resource type="PackedScene" uid="uid://c46sjw6cu6nrt" path="res://Scenes/player/player.tscn" id="2_yks0n"]
+[ext_resource type="Script" path="res://Scripts/spawn_manager.gd" id="3_h2pgk"]
+
+[node name="proto_map" type="Node2D"]
+metadata/_edit_vertical_guides_ = [-896.0, -1792.0, 0.0]
+metadata/_edit_horizontal_guides_ = [896.0]
+
+[node name="player" parent="." instance=ExtResource("2_yks0n")]
+position = Vector2(-896, 0)
+
+[node name="Room_spawn" parent="." instance=ExtResource("2_sqb33")]
+
+[node name="Room_spawn2" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(-896, 0)
+
+[node name="Room_spawn3" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(-1792, 0)
+
+[node name="Room_spawn4" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(-2688, 0)
+
+[node name="Room_spawn5" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(0, 896)
+
+[node name="Room_spawn6" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(-896, 896)
+
+[node name="Room_spawn7" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(-1792, 896)
+
+[node name="Room_spawn8" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(-2688, 896)
+
+[node name="Room_spawn9" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(3584, 0)
+
+[node name="Room_spawn10" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(2688, 0)
+
+[node name="Room_spawn11" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(1792, 0)
+
+[node name="Room_spawn12" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(896, 0)
+
+[node name="Room_spawn13" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(3584, 896)
+
+[node name="Room_spawn14" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(2688, 896)
+
+[node name="Room_spawn15" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(1792, 896)
+
+[node name="Room_spawn16" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(896, 896)
+
+[node name="Room_spawn17" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(0, -1792)
+
+[node name="Room_spawn18" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(-896, -1792)
+
+[node name="Room_spawn19" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(-1792, -1792)
+
+[node name="Room_spawn20" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(-2688, -1792)
+
+[node name="Room_spawn21" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(0, -896)
+
+[node name="Room_spawn22" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(-896, -896)
+
+[node name="Room_spawn23" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(-1792, -896)
+
+[node name="Room_spawn24" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(-2688, -896)
+
+[node name="Room_spawn25" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(3584, -1792)
+
+[node name="Room_spawn26" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(2688, -1792)
+
+[node name="Room_spawn27" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(1792, -1792)
+
+[node name="Room_spawn28" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(896, -1792)
+
+[node name="Room_spawn29" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(3584, -896)
+
+[node name="Room_spawn30" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(2688, -896)
+
+[node name="Room_spawn31" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(1792, -896)
+
+[node name="Room_spawn32" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(896, -896)
+
+[node name="Room_spawn33" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(0, -3584)
+
+[node name="Room_spawn34" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(-896, -3584)
+
+[node name="Room_spawn35" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(-1792, -3584)
+
+[node name="Room_spawn36" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(-2688, -3584)
+
+[node name="Room_spawn37" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(0, -2688)
+
+[node name="Room_spawn38" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(-896, -2688)
+
+[node name="Room_spawn39" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(-1792, -2688)
+
+[node name="Room_spawn40" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(-2688, -2688)
+
+[node name="Room_spawn41" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(3584, -3584)
+
+[node name="Room_spawn42" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(2688, -3584)
+
+[node name="Room_spawn43" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(1792, -3584)
+
+[node name="Room_spawn44" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(896, -3584)
+
+[node name="Room_spawn45" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(3584, -2688)
+
+[node name="Room_spawn46" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(2688, -2688)
+
+[node name="Room_spawn47" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(1792, -2688)
+
+[node name="Room_spawn48" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(896, -2688)
+
+[node name="Room_spawn49" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(0, -5376)
+
+[node name="Room_spawn50" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(-896, -5376)
+
+[node name="Room_spawn51" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(-1792, -5376)
+
+[node name="Room_spawn52" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(-2688, -5376)
+
+[node name="Room_spawn53" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(0, -4480)
+
+[node name="Room_spawn54" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(-896, -4480)
+
+[node name="Room_spawn55" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(-1792, -4480)
+
+[node name="Room_spawn56" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(-2688, -4480)
+
+[node name="Room_spawn57" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(3584, -5376)
+
+[node name="Room_spawn58" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(2688, -5376)
+
+[node name="Room_spawn59" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(1792, -5376)
+
+[node name="Room_spawn60" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(896, -5376)
+
+[node name="Room_spawn61" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(3584, -4480)
+
+[node name="Room_spawn62" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(2688, -4480)
+
+[node name="Room_spawn63" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(1792, -4480)
+
+[node name="Room_spawn64" parent="." instance=ExtResource("2_sqb33")]
+position = Vector2(896, -4480)
+
+[node name="spawn_manager" type="Node2D" parent="."]
+script = ExtResource("3_h2pgk")

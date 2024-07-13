@@ -1,0 +1,70 @@
+[gd_scene load_steps=3 format=3 uid="uid://d0pg6ysnhchqv"]
+
+[ext_resource type="FontFile" uid="uid://1iw636vcjem8" path="res://Assets/font/Perfect DOS VGA 437 Win.ttf" id="1_kpgxk"]
+[ext_resource type="FontFile" uid="uid://dggjlr7865b7t" path="res://Assets/font/upheavtt.ttf" id="1_v5qpj"]
+
+[node name="menu_principal" type="CanvasLayer"]
+
+[node name="bg" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.027451, 0.145098, 0.12549, 1)
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -112.0
+offset_top = 176.0
+offset_right = 113.0
+offset_bottom = 289.0
+grow_horizontal = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 20
+theme_override_fonts/font = ExtResource("1_v5qpj")
+theme_override_font_sizes/font_size = 125
+text = "PNJ"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -345.0
+offset_top = -92.0
+offset_right = 345.0
+offset_bottom = 360.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button_ng" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_fonts/font = ExtResource("1_kpgxk")
+theme_override_font_sizes/font_size = 50
+text = "NOUVELLE PARTIE"
+
+[node name="Button_ld" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_fonts/font = ExtResource("1_kpgxk")
+theme_override_font_sizes/font_size = 50
+text = "CHARGER PARTIE"
+
+[node name="Button_option" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_fonts/font = ExtResource("1_kpgxk")
+theme_override_font_sizes/font_size = 50
+text = "OPTIONS"
+
+[node name="Button_quitter" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_fonts/font = ExtResource("1_kpgxk")
+theme_override_font_sizes/font_size = 50
+text = "QUITTER"

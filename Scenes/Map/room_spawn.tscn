@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://cl7v3dbtxdvnx"]
+
+[ext_resource type="Script" path="res://Scripts/Room_spawn.gd" id="1_dpxx2"]
+[ext_resource type="Texture2D" uid="uid://c25c31lc1bmoj" path="res://qzgqzg.png" id="2_nxc5f"]
+
+[node name="Room_spawn" type="Node2D" groups=["empty", "room"]]
+script = ExtResource("1_dpxx2")
+
+[node name="Qzgqzg" type="Sprite2D" parent="."]
+z_index = -10
+texture = ExtResource("2_nxc5f")
